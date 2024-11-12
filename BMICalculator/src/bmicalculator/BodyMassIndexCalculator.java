@@ -12,8 +12,8 @@ public class BodyMassIndexCalculator {
     private double berat;
     private double tinggi;
     
-    public BodyMassIndexCalculator (double berat, double tinggiM){
-    this.tinggi = tinggiM / 100;
+    public BodyMassIndexCalculator (double berat, double tinggiCenti){
+    this.tinggi = tinggiCenti / 100;
     this.berat = berat;
             }
 
